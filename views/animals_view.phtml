@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Animals</title>
+    </head>
+    <body>
+        <?php
+            foreach ($datos as $dato) {
+                echo $dato["name"]."<br/>";
+            }
+        ?>
+        <!-- Los ficheros de la vista según el estándar de Zend Framework debemos usar .phtml, pero se podría sin ningún problema usar la extensión .php
+             Muchos dicen que es recomendable usar CamelCase en los nombres de los ficheros y las clases, a efectos prácticos da igual usarlo que no, 
+             incluso algunos frameworks como Codeigniter nos sugieren que usemos nombres como «wellcome_model» por eso no he utilizado CamelCase.
+             Si puedes y quieres abusa del CamelCase, porque así lo dicen los estándares. -->
+    </body>
+</html>
